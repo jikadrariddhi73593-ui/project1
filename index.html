@@ -1,72 +1,210 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
 </head>
 <body>
-    <div >
-    <h1 class="text-center w-1/2  border-2 border-blue-500 bg-red-500 text-white p-4"  >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, saepe.</h1>
-  
-    </div>
-</html> -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Login Page</title>
-
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-</head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-
-  <!-- Login Card -->
-  <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-sm">
-
-    <h2 class="text-2xl font-bold text-center mb-6">Login</h2>
-
-    <form>
-
-      <!-- Email -->
-      <div class="mb-4">
-        <label class="block text-gray-700 mb-1">Email</label>
-        <input
-          type="email"
-          placeholder="Enter your email"
-          class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-      </div>
-
-      <!-- Password -->
-      <div class="mb-6">
-        <label class="block text-gray-700 mb-1">Password</label>
-        <input
-          type="password"
-          placeholder="Enter your password"
-          class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-      </div>
-
-      <!-- Login Button -->
-      <button
-        type="submit"
-        class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition">
-        Login
-      </button>
-
-    </form>
-
-    <!-- Footer -->
-    <p class="text-center text-sm text-gray-500 mt-4">
-      Don’t have an account?
-      <a href="#" class="text-blue-600 hover:underline">Sign up</a>
-    </p>
-
+    <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Tailblocks</span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
+      <a class="mr-5 hover:text-gray-900" href="category.html"><category class="html">Category</a>
+      <a class="mr-5 hover:text-gray-900" href="blog.html">Blog</a>
+      <a class="mr-5 hover:text-gray-900" href="contact.html">Contact</a>
+      <a class="mr-5 hover:text-gray-900" href="login.html">Login</a>
+    </nav>
+    
   </div>
+</header>
+<section class="text-gray-600 body-font">
+  <div class="container px-4 py-14 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-2 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Non-Fiction</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">Non-fiction books contain factual information about real people, events, and subjects, aiming to inform, educate, or persuade, and span broad categories like biographies/memoirs, history, science, self-help, cookbooks, travelogues, and journalism, using text structures like expository  `</p>
+           <a href="non-fiction.html" class="mt-3 text-indigo-500 inline-flex items-center">
+  Learn More
+  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+    <path d="M5 12h14M12 5l7 7-7 7"></path>
+  </svg>
+</a>
 
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Fiction</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">Fiction books contain imaginative stories with made-up characters, settings, and plots, focusing on elements like plot, character, theme, conflict, and dialogue, and fall into numerous genres such as Romance, Sci-Fi, Mystery, Fantasy, Horror, Thriller, and Historical Fiction, all designed to entertain or explore universal truths through narrative. </p>
+          <a href="fiction.html" class="mt-3 text-indigo-500 inline-flex items-center">
+  Learn More
+  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+    <path d="M5 12h14M12 5l7 7-7 7"></path>
+  </svg>
+</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <circle cx="6" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+              </svg>
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Education</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">An educational type book, often called a textbook or simply a schoolbook, generally contains a comprehensive compilation of content intended to facilitate learning in a specific subject area. The specific content and structure depend on the target audience and educational level`</p>
+           <a href="education.html" class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+ <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+    <path d="M5 12h14M12 5l7 7-7 7"></path>
+  </svg>
+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<h1></h1>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-2    mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b1.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+          <p class="mt-1">$16.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b2.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+          <p class="mt-1">$21.15</p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b6.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+          <p class="mt-1">$12.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b7.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b5.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+          <p class="mt-1">$16.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b4.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+          <p class="mt-1">$21.15</p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b3.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+          <p class="mt-1">$12.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b2.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
+        <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b1.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+          <p class="mt-1">$12.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-96 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./image/b7.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </body>
 </html>
